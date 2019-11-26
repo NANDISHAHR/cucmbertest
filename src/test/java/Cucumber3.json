@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T03:53:17.522Z",
+        "line": 3,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "test-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1423600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I entered 50 in the caluclator",
+            "match": {
+              "location": "cucumberimpl.I_entered_50_in_the_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I press add",
+            "match": {
+              "location": "cucumberimpl.I_press_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have entered 50 in the calculator",
+            "match": {
+              "location": "cucumberimpl.I_have_eneterd_50_in_the_calculator()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I pressed equal",
+            "match": {
+              "location": "cucumberimpl.press_equal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the result should be 100",
+            "match": {
+              "location": "cucumberimpl.result_should_be_100()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-26T03:53:17.543Z",
+        "line": 10,
+        "name": "sub two numbers",
+        "description": "",
+        "id": "test-calculator;sub-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 149800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I entered 30 in the caluclator",
+            "match": {
+              "location": "cucumberimpl.I_entered_50_in_the_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I press sub",
+            "match": {
+              "location": "cucumberimpl.I_press_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I have entered 20 in the calculator",
+            "match": {
+              "location": "cucumberimpl.I_have_eneterd_50_in_the_calculator()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I pressed equal",
+            "match": {
+              "location": "cucumberimpl.press_equal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the result should be 30",
+            "match": {
+              "location": "cucumberimpl.result_should_be_100()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test calculator",
+    "description": " This file describes calculator functionality",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:Cucumber3/calculator.feature",
+    "tags": []
+  }
+]
